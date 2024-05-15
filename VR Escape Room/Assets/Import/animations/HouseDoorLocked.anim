@@ -1,0 +1,1819 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HouseDoorLocked
+  serializedVersion: 7
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -8.970687e-19, y: 1.5585454e-18, z: 1.258636e-19, w: -1}
+        inSlope: {x: 2.6379624e-17, y: 2.6225242e-18, z: -0.33204123, w: 0.00091910356}
+        outSlope: {x: 2.6379624e-17, y: 2.6225242e-18, z: -0.33204123, w: 0.00091910356}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0, w: 0}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.016666668
+        value: {x: -4.574083e-19, y: 1.6022541e-18, z: -0.0055340207, w: -0.9999847}
+        inSlope: {x: -6.981123e-19, y: -2.8204894e-18, z: -0.4743238, w: 0.003749728}
+        outSlope: {x: -6.981123e-19, y: -2.8204894e-18, z: -0.4743238, w: 0.003749728}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033333335
+        value: {x: -9.203391e-19, y: 1.4645291e-18, z: -0.015810795, w: -0.999875}
+        inSlope: {x: 2.2899006e-19, y: -4.6467304e-17, z: -0.4742958, w: 0.0063747168}
+        outSlope: {x: 2.2899006e-19, y: -4.6467304e-17, z: -0.4742958, w: 0.0063747168}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.05
+        value: {x: -4.4977537e-19, y: 5.3344e-20, z: -0.021343881, w: -0.9997722}
+        inSlope: {x: 2.8911203e-19, y: -5.7582226e-18, z: 0.15415132, w: -0.002042054}
+        outSlope: {x: 2.8911203e-19, y: -5.7582226e-18, z: 0.15415132, w: -0.002042054}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666667
+        value: {x: -9.107022e-19, y: 1.2725885e-18, z: -0.010672416, w: -0.9999431}
+        inSlope: {x: -1.3418798e-17, y: 4.5156038e-17, z: 0.64031637, w: -0.0068342676}
+        outSlope: {x: -1.3418798e-17, y: 4.5156038e-17, z: 0.64031637, w: -0.0068342676}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.083333336
+        value: {x: -8.970687e-19, y: 1.5585454e-18, z: 1.258636e-19, w: -1}
+        inSlope: {x: 1.3766023e-17, y: -1.0969423e-17, z: 0.21110031, w: -0.0015091897}
+        outSlope: {x: 1.3766023e-17, y: -1.0969423e-17, z: 0.21110031, w: -0.0015091897}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1
+        value: {x: -4.5183474e-19, y: 9.069411e-19, z: -0.0036357394, w: -0.9999934}
+        inSlope: {x: -6.702454e-19, y: 1.7623018e-17, z: -0.3116322, w: 0.0016182662}
+        outSlope: {x: -6.702454e-19, y: 1.7623018e-17, z: -0.3116322, w: 0.0016182662}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.11666667
+        value: {x: -9.194102e-19, y: 2.1459793e-18, z: -0.010387739, w: -0.99994606}
+        inSlope: {x: 1.2952722e-17, y: 1.5738507e-17, z: -0.3116242, w: 0.002751946}
+        outSlope: {x: 1.2952722e-17, y: 1.5738507e-17, z: -0.3116242, w: 0.002751946}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333334
+        value: {x: -2.0077013e-20, y: 1.4315576e-18, z: -0.014023214, w: -0.99990165}
+        inSlope: {x: 2.7278651e-17, y: -2.107549e-17, z: 0.10127884, w: -0.0008815534}
+        outSlope: {x: 2.7278651e-17, y: -2.107549e-17, z: 0.10127884, w: -0.0008815534}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.15
+        value: {x: -1.012149e-20, y: 1.4434626e-18, z: -0.0070117796, w: -0.99997544}
+        inSlope: {x: -2.6309753e-17, y: 3.8096324e-18, z: 0.42069644, w: -0.0029504301}
+        outSlope: {x: -2.6309753e-17, y: 3.8096324e-18, z: 0.42069644, w: -0.0029504301}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666667
+        value: {x: -8.970687e-19, y: 1.5585454e-18, z: 1.258636e-19, w: -1}
+        inSlope: {x: -5.3216837e-17, y: 6.904965e-18, z: 0.4207068, w: -0.0014734269}
+        outSlope: {x: -5.3216837e-17, y: 6.904965e-18, z: 0.4207068, w: -0.0014734269}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0, y: 0, z: 0, w: 0}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/GrannyHouse/Granny3HouseTest5/Shed/ShedDoorParent/ShedDoorHolder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -2.0409784e-32, y: -0, z: -0, w: -1}
+        inSlope: {x: 1.2246864e-30, y: -1.7976117e-32, z: -0.33204123, w: 0.00091910356}
+        outSlope: {x: 1.2246864e-30, y: -1.7976117e-32, z: -0.33204123, w: 0.00091910356}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0, w: 0}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.016666668
+        value: {x: 1.6580287e-36, y: -2.9960196e-34, z: -0.0055340207, w: -0.9999847}
+        inSlope: {x: 7.654819e-35, y: -9.680846e-33, z: -0.4743238, w: 0.003749728}
+        outSlope: {x: 7.654819e-35, y: -9.680846e-33, z: -0.4743238, w: 0.003749728}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033333335
+        value: {x: -2.0407233e-32, y: -3.226949e-34, z: -0.015810795, w: -0.999875}
+        inSlope: {x: -6.1143635e-31, y: -4.002526e-32, z: -0.4742958, w: 0.0063747168}
+        outSlope: {x: -6.1143635e-31, y: -4.002526e-32, z: -0.4742958, w: 0.0063747168}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.05
+        value: {x: -2.0379556e-32, y: -1.6337772e-33, z: -0.021343881, w: -0.9997722}
+        inSlope: {x: 6.122169e-31, y: 9.6808366e-33, z: 0.15415132, w: -0.002042054}
+        outSlope: {x: 6.122169e-31, y: 9.6808366e-33, z: 0.15415132, w: -0.002042054}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666667
+        value: {x: 0, y: 0, z: -0.010672416, w: -0.9999431}
+        inSlope: {x: -9.070114e-34, y: 4.9013307e-32, z: 0.64031637, w: -0.0068342676}
+        outSlope: {x: -9.070114e-34, y: 4.9013307e-32, z: 0.64031637, w: -0.0068342676}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.083333336
+        value: {x: -2.0409784e-32, y: -0, z: -0, w: -1}
+        inSlope: {x: -1.6362881e-35, y: 4.494069e-33, z: 0.21110031, w: -0.0015091897}
+        outSlope: {x: -1.6362881e-35, y: 4.494069e-33, z: 0.21110031, w: -0.0015091897}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1
+        value: {x: -5.446457e-37, y: 1.4980229e-34, z: -0.0036357394, w: -0.9999934}
+        inSlope: {x: 6.121068e-31, y: 1.7975425e-32, z: -0.3116322, w: 0.0016182662}
+        outSlope: {x: 6.121068e-31, y: 1.7975425e-32, z: -0.3116322, w: 0.0016182662}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.11666667
+        value: {x: -6.224469e-36, y: 5.991808e-34, z: -0.010387739, w: -0.99994606}
+        inSlope: {x: 1.6339291e-35, y: -4.494062e-33, z: -0.3116242, w: 0.002751946}
+        outSlope: {x: 1.6339291e-35, y: -4.494062e-33, z: -0.3116242, w: 0.002751946}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333334
+        value: {x: 0, y: 0, z: -0.014023214, w: -0.99990165}
+        inSlope: {x: -6.120918e-31, y: -2.2268684e-32, z: 0.10127884, w: -0.0008815534}
+        outSlope: {x: -6.120918e-31, y: -2.2268684e-32, z: 0.10127884, w: -0.0008815534}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.15
+        value: {x: -2.0409283e-32, y: -1.431089e-34, z: -0.0070117796, w: -0.99997544}
+        inSlope: {x: -6.1229357e-31, y: 0, z: 0.42069644, w: -0.0029504301}
+        outSlope: {x: -6.1229357e-31, y: 0, z: 0.42069644, w: -0.0029504301}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666667
+        value: {x: -2.0409784e-32, y: -0, z: -0, w: -1}
+        inSlope: {x: -3.006327e-35, y: 8.5865344e-33, z: 0.4207068, w: -0.0014734269}
+        outSlope: {x: -3.006327e-35, y: 8.5865344e-33, z: 0.4207068, w: -0.0014734269}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0, y: 0, z: 0, w: 0}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/All_doors/CellarStairDoorParent/CellarStairDoor
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 2
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.16666667
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -8.970687e-19
+        inSlope: 2.6379624e-17
+        outSlope: 2.6379624e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: -4.574083e-19
+        inSlope: -6.981123e-19
+        outSlope: -6.981123e-19
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -9.203391e-19
+        inSlope: 2.2899006e-19
+        outSlope: 2.2899006e-19
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: -4.4977537e-19
+        inSlope: 2.8911203e-19
+        outSlope: 2.8911203e-19
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -9.107022e-19
+        inSlope: -1.3418798e-17
+        outSlope: -1.3418798e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: -8.970687e-19
+        inSlope: 1.3766023e-17
+        outSlope: 1.3766023e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: -4.5183474e-19
+        inSlope: -6.702454e-19
+        outSlope: -6.702454e-19
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: -9.194102e-19
+        inSlope: 1.2952722e-17
+        outSlope: 1.2952722e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -2.0077013e-20
+        inSlope: 2.7278651e-17
+        outSlope: 2.7278651e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: -1.012149e-20
+        inSlope: -2.6309753e-17
+        outSlope: -2.6309753e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -8.970687e-19
+        inSlope: -5.3216837e-17
+        outSlope: -5.3216837e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/GrannyHouse/Granny3HouseTest5/Shed/ShedDoorParent/ShedDoorHolder
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.5585454e-18
+        inSlope: 2.6225242e-18
+        outSlope: 2.6225242e-18
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 1.6022541e-18
+        inSlope: -2.8204894e-18
+        outSlope: -2.8204894e-18
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 1.4645291e-18
+        inSlope: -4.6467304e-17
+        outSlope: -4.6467304e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: 5.3344e-20
+        inSlope: -5.7582226e-18
+        outSlope: -5.7582226e-18
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 1.2725885e-18
+        inSlope: 4.5156038e-17
+        outSlope: 4.5156038e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: 1.5585454e-18
+        inSlope: -1.0969423e-17
+        outSlope: -1.0969423e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 9.069411e-19
+        inSlope: 1.7623018e-17
+        outSlope: 1.7623018e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: 2.1459793e-18
+        inSlope: 1.5738507e-17
+        outSlope: 1.5738507e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 1.4315576e-18
+        inSlope: -2.107549e-17
+        outSlope: -2.107549e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: 1.4434626e-18
+        inSlope: 3.8096324e-18
+        outSlope: 3.8096324e-18
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 1.5585454e-18
+        inSlope: 6.904965e-18
+        outSlope: 6.904965e-18
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/GrannyHouse/Granny3HouseTest5/Shed/ShedDoorParent/ShedDoorHolder
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.258636e-19
+        inSlope: -0.33204123
+        outSlope: -0.33204123
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: -0.0055340207
+        inSlope: -0.4743238
+        outSlope: -0.4743238
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -0.015810795
+        inSlope: -0.4742958
+        outSlope: -0.4742958
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: -0.021343881
+        inSlope: 0.15415132
+        outSlope: 0.15415132
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -0.010672416
+        inSlope: 0.64031637
+        outSlope: 0.64031637
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: 1.258636e-19
+        inSlope: 0.21110031
+        outSlope: 0.21110031
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: -0.0036357394
+        inSlope: -0.3116322
+        outSlope: -0.3116322
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: -0.010387739
+        inSlope: -0.3116242
+        outSlope: -0.3116242
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -0.014023214
+        inSlope: 0.10127884
+        outSlope: 0.10127884
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: -0.0070117796
+        inSlope: 0.42069644
+        outSlope: 0.42069644
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 1.258636e-19
+        inSlope: 0.4207068
+        outSlope: 0.4207068
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/GrannyHouse/Granny3HouseTest5/Shed/ShedDoorParent/ShedDoorHolder
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -1
+        inSlope: 0.00091910356
+        outSlope: 0.00091910356
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: -0.9999847
+        inSlope: 0.003749728
+        outSlope: 0.003749728
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -0.999875
+        inSlope: 0.0063747168
+        outSlope: 0.0063747168
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: -0.9997722
+        inSlope: -0.002042054
+        outSlope: -0.002042054
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -0.9999431
+        inSlope: -0.0068342676
+        outSlope: -0.0068342676
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: -1
+        inSlope: -0.0015091897
+        outSlope: -0.0015091897
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: -0.9999934
+        inSlope: 0.0016182662
+        outSlope: 0.0016182662
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: -0.99994606
+        inSlope: 0.002751946
+        outSlope: 0.002751946
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -0.99990165
+        inSlope: -0.0008815534
+        outSlope: -0.0008815534
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: -0.99997544
+        inSlope: -0.0029504301
+        outSlope: -0.0029504301
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -1
+        inSlope: -0.0014734269
+        outSlope: -0.0014734269
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/GrannyHouse/Granny3HouseTest5/Shed/ShedDoorParent/ShedDoorHolder
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -2.0409784e-32
+        inSlope: 1.2246864e-30
+        outSlope: 1.2246864e-30
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 1.6580287e-36
+        inSlope: 7.654819e-35
+        outSlope: 7.654819e-35
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -2.0407233e-32
+        inSlope: -6.1143635e-31
+        outSlope: -6.1143635e-31
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: -2.0379556e-32
+        inSlope: 6.122169e-31
+        outSlope: 6.122169e-31
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 0
+        inSlope: -9.070114e-34
+        outSlope: -9.070114e-34
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: -2.0409784e-32
+        inSlope: -1.6362881e-35
+        outSlope: -1.6362881e-35
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: -5.446457e-37
+        inSlope: 6.121068e-31
+        outSlope: 6.121068e-31
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: -6.224469e-36
+        inSlope: 1.6339291e-35
+        outSlope: 1.6339291e-35
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 0
+        inSlope: -6.120918e-31
+        outSlope: -6.120918e-31
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: -2.0409283e-32
+        inSlope: -6.1229357e-31
+        outSlope: -6.1229357e-31
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -2.0409784e-32
+        inSlope: -3.006327e-35
+        outSlope: -3.006327e-35
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/All_doors/CellarStairDoorParent/CellarStairDoor
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0
+        inSlope: -1.7976117e-32
+        outSlope: -1.7976117e-32
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: -2.9960196e-34
+        inSlope: -9.680846e-33
+        outSlope: -9.680846e-33
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -3.226949e-34
+        inSlope: -4.002526e-32
+        outSlope: -4.002526e-32
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: -1.6337772e-33
+        inSlope: 9.6808366e-33
+        outSlope: 9.6808366e-33
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 0
+        inSlope: 4.9013307e-32
+        outSlope: 4.9013307e-32
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: -0
+        inSlope: 4.494069e-33
+        outSlope: 4.494069e-33
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 1.4980229e-34
+        inSlope: 1.7975425e-32
+        outSlope: 1.7975425e-32
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: 5.991808e-34
+        inSlope: -4.494062e-33
+        outSlope: -4.494062e-33
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 0
+        inSlope: -2.2268684e-32
+        outSlope: -2.2268684e-32
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: -1.431089e-34
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -0
+        inSlope: 8.5865344e-33
+        outSlope: 8.5865344e-33
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/All_doors/CellarStairDoorParent/CellarStairDoor
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0
+        inSlope: -0.33204123
+        outSlope: -0.33204123
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: -0.0055340207
+        inSlope: -0.4743238
+        outSlope: -0.4743238
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -0.015810795
+        inSlope: -0.4742958
+        outSlope: -0.4742958
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: -0.021343881
+        inSlope: 0.15415132
+        outSlope: 0.15415132
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -0.010672416
+        inSlope: 0.64031637
+        outSlope: 0.64031637
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: -0
+        inSlope: 0.21110031
+        outSlope: 0.21110031
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: -0.0036357394
+        inSlope: -0.3116322
+        outSlope: -0.3116322
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: -0.010387739
+        inSlope: -0.3116242
+        outSlope: -0.3116242
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -0.014023214
+        inSlope: 0.10127884
+        outSlope: 0.10127884
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: -0.0070117796
+        inSlope: 0.42069644
+        outSlope: 0.42069644
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -0
+        inSlope: 0.4207068
+        outSlope: 0.4207068
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/All_doors/CellarStairDoorParent/CellarStairDoor
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -1
+        inSlope: 0.00091910356
+        outSlope: 0.00091910356
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: -0.9999847
+        inSlope: 0.003749728
+        outSlope: 0.003749728
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -0.999875
+        inSlope: 0.0063747168
+        outSlope: 0.0063747168
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: -0.9997722
+        inSlope: -0.002042054
+        outSlope: -0.002042054
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -0.9999431
+        inSlope: -0.0068342676
+        outSlope: -0.0068342676
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: -1
+        inSlope: -0.0015091897
+        outSlope: -0.0015091897
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: -0.9999934
+        inSlope: 0.0016182662
+        outSlope: 0.0016182662
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: -0.99994606
+        inSlope: 0.002751946
+        outSlope: 0.002751946
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -0.99990165
+        inSlope: -0.0008815534
+        outSlope: -0.0008815534
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: -0.99997544
+        inSlope: -0.0029504301
+        outSlope: -0.0029504301
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -1
+        inSlope: -0.0014734269
+        outSlope: -0.0014734269
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/All_doors/CellarStairDoorParent/CellarStairDoor
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  m_EulerEditorCurves:
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.02796494e-16
+        inSlope: -1.8503367e-14
+        outSlope: -1.8503367e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 5.343039e-17
+        inSlope: -9.6174704e-15
+        outSlope: -9.6174704e-15
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 1.08103314e-16
+        inSlope: -1.9458595e-14
+        outSlope: -1.9458597e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: 5.1659186e-17
+        inSlope: -9.298654e-15
+        outSlope: -9.2986515e-15
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 1.05909175e-16
+        inSlope: -1.9063647e-14
+        outSlope: -1.9063652e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: 1.02796494e-16
+        inSlope: -1.850337e-14
+        outSlope: -1.850337e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 5.2153956e-17
+        inSlope: -9.387712e-15
+        outSlope: -9.387712e-15
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: 1.0790542e-16
+        inSlope: -1.9422975e-14
+        outSlope: -1.9422967e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 4.6008605e-18
+        inSlope: -8.2815454e-16
+        outSlope: -8.281549e-16
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: 2.3196175e-18
+        inSlope: -4.1753115e-16
+        outSlope: -4.1753115e-16
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 1.02796494e-16
+        inSlope: -1.850337e-14
+        outSlope: -1.850337e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/GrannyHouse/Granny3HouseTest5/Shed/ShedDoorParent/ShedDoorHolder
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -1.7859613e-16
+        inSlope: 3.21473e-14
+        outSlope: 3.21473e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: -1.8331192e-16
+        inSlope: 3.2996145e-14
+        outSlope: 3.2996145e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -1.6613424e-16
+        inSlope: 2.990416e-14
+        outSlope: 2.9904163e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: -5.011306e-18
+        inSlope: 9.020351e-16
+        outSlope: 9.020349e-16
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -1.4470582e-16
+        inSlope: 2.6047044e-14
+        outSlope: 2.604705e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: -1.7859613e-16
+        inSlope: 3.2147303e-14
+        outSlope: 3.2147303e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: -1.0373885e-16
+        inSlope: 1.8672994e-14
+        outSlope: 1.8672994e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: -2.448034e-16
+        inSlope: 4.4064612e-14
+        outSlope: 4.4064592e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -1.6399601e-16
+        inSlope: 2.951927e-14
+        outSlope: 2.9519285e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: -1.6539643e-16
+        inSlope: 2.977136e-14
+        outSlope: 2.977136e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -1.7859613e-16
+        inSlope: 3.2147303e-14
+        outSlope: 3.2147303e-14
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/GrannyHouse/Granny3HouseTest5/Shed/ShedDoorParent/ShedDoorHolder
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -1.4422905e-17
+        inSlope: 38.048397
+        outSlope: 38.048397
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 0.6341553
+        inSlope: 54.354855
+        outSlope: 54.354855
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 1.8118591
+        inSlope: 54.354855
+        outSlope: 54.354862
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: 2.4460144
+        inSlope: -17.666018
+        outSlope: -17.666012
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 1.222992
+        inSlope: -73.37767
+        outSlope: -73.37769
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: -1.4422905e-17
+        inSlope: -24.18915
+        outSlope: -24.18915
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 0.41662598
+        inSlope: 35.711063
+        outSlope: 35.711063
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: 1.1903685
+        inSlope: 35.711082
+        outSlope: 35.711067
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 1.6069945
+        inSlope: -11.60703
+        outSlope: -11.607035
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: 0.80349725
+        inSlope: -48.208
+        outSlope: -48.208
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -1.4422905e-17
+        inSlope: -48.20801
+        outSlope: -48.20801
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/GrannyHouse/Granny3HouseTest5/Shed/ShedDoorParent/ShedDoorHolder
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 2.3387888e-30
+        inSlope: -4.2098195e-28
+        outSlope: -4.2098195e-28
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: -3.7998638e-34
+        inSlope: 6.8397544e-32
+        outSlope: 6.8397544e-32
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 2.3376197e-30
+        inSlope: -4.207715e-28
+        outSlope: -4.2077154e-28
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: 2.330797e-30
+        inSlope: -4.1954347e-28
+        outSlope: -4.1954338e-28
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: 2.3387888e-30
+        inSlope: -4.20982e-28
+        outSlope: -4.20982e-28
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 1.2482277e-34
+        inSlope: -2.2468101e-32
+        outSlope: -2.2468101e-32
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: 1.42646625e-33
+        inSlope: -2.5676396e-31
+        outSlope: -2.5676384e-31
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: 2.338559e-30
+        inSlope: -4.2094064e-28
+        outSlope: -4.2094064e-28
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 2.3387888e-30
+        inSlope: -4.20982e-28
+        outSlope: -4.20982e-28
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/All_doors/CellarStairDoorParent/CellarStairDoor
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 3.4330277e-32
+        inSlope: -6.1794497e-30
+        outSlope: -6.1794497e-30
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 7.3946976e-32
+        inSlope: -1.3310455e-29
+        outSlope: -1.3310457e-29
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: 2.3701932e-31
+        inSlope: -4.266348e-29
+        outSlope: -4.266347e-29
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: -1.7165738e-32
+        inSlope: 3.089833e-30
+        outSlope: 3.089833e-30
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: -6.8649946e-32
+        inSlope: 1.2356991e-29
+        outSlope: 1.23569854e-29
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: 3.279734e-32
+        inSlope: -5.9035215e-30
+        outSlope: -5.9035215e-30
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/All_doors/CellarStairDoorParent/CellarStairDoor
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 38.048397
+        outSlope: 38.048397
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 0.6341553
+        inSlope: 54.354855
+        outSlope: 54.354855
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 1.8118591
+        inSlope: 54.354855
+        outSlope: 54.354862
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: 2.4460144
+        inSlope: -17.666018
+        outSlope: -17.666012
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 1.222992
+        inSlope: -73.37767
+        outSlope: -73.37769
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: 0
+        inSlope: -24.18915
+        outSlope: -24.18915
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 0.41662598
+        inSlope: 35.711063
+        outSlope: 35.711063
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.11666667
+        value: 1.1903685
+        inSlope: 35.711082
+        outSlope: 35.711067
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 1.6069945
+        inSlope: -11.60703
+        outSlope: -11.607035
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.15
+        value: 0.80349725
+        inSlope: -48.208
+        outSlope: -48.208
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0
+        inSlope: -48.20801
+        outSlope: -48.20801
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: Sketchfab_model/41e522b0ca484a9ca47feb54bf27c116.fbx/Object_2/RootNode/All_doors/CellarStairDoorParent/CellarStairDoor
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []
