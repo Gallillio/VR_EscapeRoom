@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PushDoor : MonoBehaviour
 {
-    public Vector3 pushDirection = new Vector3(-1, 0, 0);
+    private Vector3 pushDirection = new Vector3(-1, 0, 0);
     public float pushForce = 10f;
 
     private Rigidbody rb;
@@ -23,10 +23,15 @@ public class PushDoor : MonoBehaviour
             // Apply the force
             rb.constraints &= ~RigidbodyConstraints.FreezeRotationX;
             rb.AddForce(pushDirection.normalized * pushForce, ForceMode.Impulse);
+
+            //play audio from AUDIOMANAGER
+            FindObjectOfType<AudioManager>().PlaySound("doorSlam");
         }
         else
         {
             Debug.LogError("No Rigidbody component found on this GameObject.");
         }
     }
+
+
 }
