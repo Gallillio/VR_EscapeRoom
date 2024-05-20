@@ -46,7 +46,6 @@ GameObject:
   - component: {fileID: 2524165875444795179}
   - component: {fileID: 7765799912019797570}
   - component: {fileID: 2178497638501070048}
-  - component: {fileID: 5205480865983062255}
   m_Layer: 0
   m_Name: letter_F
   m_TagString: Shape
@@ -320,16 +319,3 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &5205480865983062255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5374925806982363573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb727e0f46762cd43b2572319d46f2bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shapeIsSelected: 0
