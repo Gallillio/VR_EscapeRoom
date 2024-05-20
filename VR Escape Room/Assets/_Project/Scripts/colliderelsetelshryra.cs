@@ -4,24 +4,15 @@ using UnityEngine;
 
 public class colliderelsetelshryra : MonoBehaviour
 {
-    public GameObject spatial_panel;    
-    private void OnTriggerEnter(Collider other)
-        {
-            if (other.gameObject.CompareTag("Player"))
-            {
-                spatial_panel.gameObject.SetActive(true);
-                // Here, you can trigger the display of artwork information UI canvas.
-                //play audio from AUDIOMANAGER
-                FindObjectOfType<AudioManager>().PlaySound("elsetelsheryra");
+    private bool soundPlayed = false; // Flag to ensure the sound is played only once
 
-            }
-        }
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player") && !soundPlayed)
         {
-            if (other.gameObject.CompareTag("Player"))
-            {
-                spatial_panel.gameObject.SetActive(false);
-                // Here, you can trigger the display of artwork information UI canvas.
-            }
+            // Play audio from AudioManager
+            FindObjectOfType<AudioManager>().PlaySound("elsetelsheryra");
+            soundPlayed = true; // Set the flag to true to prevent replaying the sound
         }
+    }
 }

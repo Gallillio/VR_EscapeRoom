@@ -2,15 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class founditems : MonoBehaviour
 {
-    // UI text components to display count of "PickUp" objects collected.
-    public GameObject countTextUI;
-    public GameObject countTextTMP;
-    private Text countTextComponentUI;
-    private TextMeshProUGUI countTextComponentTMP;
+    // UI text component to display count of "PickUp" objects collected.
+    public TMP_Text countText;
+    private Text countTextComponent;
     private int count;
 
     // UI object to display winning text.
@@ -18,26 +15,21 @@ public class founditems : MonoBehaviour
 
     void Start()
     {
-        // Check if countTextUI is assigned
-        if (countTextUI != null)
+        // Check if countText is assigned
+        if (countText != null)
         {
-            // Get the Text component from the countTextUI GameObject
-            countTextComponentUI = countTextUI.GetComponent<Text>();
-            if (countTextComponentUI == null)
+            // Get the Text component from the countText GameObject
+            countTextComponent = countText.GetComponent<Text>();
+
+            // Check if the countTextComponent is assigned properly
+            if (countTextComponent == null)
             {
-                Debug.LogError("Text component not found on countTextUI GameObject.");
+                Debug.LogError("Text component not found on countText GameObject.");
             }
         }
-
-        // Check if countTextTMP is assigned
-        if (countTextTMP != null)
+        else
         {
-            // Get the TextMeshProUGUI component from the countTextTMP GameObject
-            countTextComponentTMP = countTextTMP.GetComponent<TextMeshProUGUI>();
-            if (countTextComponentTMP == null)
-            {
-                Debug.LogError("TextMeshProUGUI component not found on countTextTMP GameObject.");
-            }
+            Debug.LogError("countText GameObject is not assigned in the Inspector.");
         }
 
         // Check if done is assigned
@@ -60,7 +52,7 @@ public class founditems : MonoBehaviour
 
             // Increment the count of "collectable" objects collected.
             count = count + 1;
-            Debug.Log("mawgod.");
+
             // Update the count display.
             SetCountText();
         }
@@ -69,16 +61,11 @@ public class founditems : MonoBehaviour
     // Function to update the displayed count of "PickUp" objects collected.
     void SetCountText()
     {
-        // Update the count text with the current count if using UnityEngine.UI.Text
-        if (countTextComponentUI != null)
+        // Check if countTextComponent is not null before updating the text
+        if (countTextComponent != null)
         {
-            countTextComponentUI.text = "Count: " + count.ToString();
-        }
-
-        // Update the count text with the current count if using TextMeshProUGUI
-        if (countTextComponentTMP != null)
-        {
-            countTextComponentTMP.text = "Count: " + count.ToString();
+            // Update the count text with the current count.
+            countTextComponent.text = "Count: " + count.ToString();
         }
 
         // Check if the count has reached or exceeded the win condition.
@@ -90,15 +77,10 @@ public class founditems : MonoBehaviour
                 done.SetActive(true);
             }
 
-            // Deactivate the countText GameObject if countTextUI or countTextTMP is not null
-            if (countTextUI != null)
+            // Deactivate the countText GameObject if countText is not null
+            if (countText != null)
             {
-                countTextUI.SetActive(false);
-            }
-
-            if (countTextTMP != null)
-            {
-                countTextTMP.SetActive(false);
+                countText.SetActive(false);
             }
         }
     }

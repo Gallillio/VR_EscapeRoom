@@ -6,9 +6,7 @@ TagManager:
   tags:
   - LettersAndNumbers
   - Shape
-  - Hunting_Rifle
-  - teddy
-  - key
+  - collectables
   layers:
   - Default
   - TransparentFX
