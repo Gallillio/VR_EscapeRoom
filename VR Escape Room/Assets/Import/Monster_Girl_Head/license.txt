@@ -1,0 +1,11 @@
+Model Information:
+* title:	Monster Girl Head
+* source:	https://sketchfab.com/3d-models/monster-girl-head-b3966c53f80f4b3e81ebb9408794e338
+* author:	luch.pok (https://sketchfab.com/lvintoniyak)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Monster Girl Head" (https://sketchfab.com/3d-models/monster-girl-head-b3966c53f80f4b3e81ebb9408794e338) by luch.pok (https://sketchfab.com/lvintoniyak) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
