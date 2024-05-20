@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
 
-    void Awake()
+    private void Awake()
     {
         foreach (Sound sound in sounds)
         {
@@ -14,9 +14,12 @@ public class AudioManager : MonoBehaviour
             sound.source.clip = sound.clip;
             sound.source.volume = sound.volume;
             sound.source.pitch = sound.pitch;
-
-
         }
+    }
+
+    private void Start()
+    {
+        PlaySound("backgroundMusic");
     }
 
     public void PlaySound(string name)
