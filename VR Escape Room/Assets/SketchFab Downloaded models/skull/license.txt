@@ -1,0 +1,11 @@
+Model Information:
+* title:	3D Object Demo
+* source:	https://sketchfab.com/3d-models/3d-object-demo-d0052ad0bfdc4a7ca8631aa2042cf503
+* author:	cdrogers (https://sketchfab.com/cdrogers)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "3D Object Demo" (https://sketchfab.com/3d-models/3d-object-demo-d0052ad0bfdc4a7ca8631aa2042cf503) by cdrogers (https://sketchfab.com/cdrogers) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
