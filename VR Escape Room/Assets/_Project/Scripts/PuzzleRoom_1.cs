@@ -8,10 +8,20 @@ public class PuzzleRoom_1 : MonoBehaviour
     [SerializeField] private bool correctNumber = false;
 
     private Transform passwordTextOnDesk;
+    public WinEventRoom_1 winEventScript;
 
     private void Start()
     {
         passwordTextOnDesk = GameObject.Find("PasswordText").GetComponent<Transform>();
+        winEventScript = GameObject.Find("Room1WinEvent").GetComponent<WinEventRoom_1>();
+    }
+
+    private void Update()
+    {
+        if (correctLetter && correctNumber)
+        {
+            winEventScript.WinEventFunc();
+        }
     }
 
     private void OnTriggerEnter(Collider other)
