@@ -46,10 +46,9 @@ GameObject:
   - component: {fileID: 8381386623484616243}
   - component: {fileID: 3434017781935852552}
   - component: {fileID: 969559938518799644}
-  - component: {fileID: 7939848440333881420}
   m_Layer: 0
   m_Name: letter_Z
-  m_TagString: Shape
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -320,16 +319,3 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &7939848440333881420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4241020118305912340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb727e0f46762cd43b2572319d46f2bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shapeIsSelected: 0
