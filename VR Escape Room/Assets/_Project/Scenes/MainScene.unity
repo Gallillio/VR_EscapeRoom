@@ -211,6 +211,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &264343789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 264343790}
+  m_Layer: 0
+  m_Name: WinEvent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &264343790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264343789}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.042943, y: 0.7834778, z: -2.649786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1333545563}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &423529120
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,6 +415,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4462cbd02280bc4ebc995e1d0a44957, type: 3}
+--- !u!4 &1333545563 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3426285268146863178, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
+  m_PrefabInstance: {fileID: 5207031737463417262}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1548251155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,6 +1365,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -8.509763
       objectReference: {fileID: 0}
+    - target: {fileID: 423152239023308375, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 428907307450238983, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
       propertyPath: m_TagString
       value: LettersAndNumbers
@@ -1405,6 +1445,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4273615842507399399, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4353052455294241988, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
+      propertyPath: m_Constraints
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 4482414457170627537, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
       propertyPath: m_TagString
       value: LettersAndNumbers
@@ -1441,6 +1489,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: LettersAndNumbers
       objectReference: {fileID: 0}
+    - target: {fileID: 8119307264154270107, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
+      propertyPath: m_Name
+      value: doorItself
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119307264154270107, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8214504463053461006, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
       propertyPath: m_TagString
       value: LettersAndNumbers
@@ -1455,7 +1511,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3426285268146863178, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 264343790}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4062372981015781079, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
       insertIndex: -1

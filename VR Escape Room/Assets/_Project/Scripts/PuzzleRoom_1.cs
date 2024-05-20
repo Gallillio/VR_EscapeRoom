@@ -7,8 +7,17 @@ public class PuzzleRoom_1 : MonoBehaviour
     [SerializeField] private bool correctLetter = false;
     [SerializeField] private bool correctNumber = false;
 
+    private Transform passwordTextOnDesk;
+
+    private void Start()
+    {
+        passwordTextOnDesk = GameObject.Find("PasswordText").GetComponent<Transform>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
+        passwordTextOnDesk.gameObject.SetActive(false);
+
         if (other.CompareTag("LettersAndNumbers") && other.name == "letter_L")
         {
             correctLetter = true;
@@ -18,9 +27,11 @@ public class PuzzleRoom_1 : MonoBehaviour
             correctNumber = true;
         }
     }
-    
+
     private void OnTriggerExit(Collider other)
     {
+        passwordTextOnDesk.gameObject.SetActive(true);
+
         if (other.CompareTag("LettersAndNumbers") && other.name == "letter_L")
         {
             correctLetter = false;
