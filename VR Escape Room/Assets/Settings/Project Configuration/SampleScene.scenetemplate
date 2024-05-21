@@ -1284,12 +1284,12 @@ MonoBehaviour:
     instantiationMode: 1
   - dependency: {fileID: 4300000, guid: 76696dc6fd41aca48a0f45508108b18a, type: 2}
     instantiationMode: 1
-  - dependency: {fileID: 4300000, guid: b1ab9d87acb35914aa5f0e8850c552a7, type: 2}
-    instantiationMode: 1
   - dependency: {fileID: 4300000, guid: e756ca65b9492234b9dcb6f65a24ad83, type: 2}
     instantiationMode: 1
   - dependency: {fileID: 2800000, guid: 9625d04e38cf2c24abcc8a5be4834ce4, type: 3}
     instantiationMode: 0
+  - dependency: {fileID: 4300000, guid: b1ab9d87acb35914aa5f0e8850c552a7, type: 2}
+    instantiationMode: 1
   - dependency: {fileID: 4300000, guid: 85ad8957302234d478196bbfc2f9c05b, type: 2}
     instantiationMode: 1
   - dependency: {fileID: 4300000, guid: 54b6d5ee19096a54d8c3ce98f63e9fb9, type: 2}
