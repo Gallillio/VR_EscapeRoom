@@ -1,6 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
 namespace NavKeypad
 {
     public class KeypadButton : MonoBehaviour
@@ -13,21 +13,23 @@ namespace NavKeypad
         [SerializeField] private float buttonPressedTime = 0.1f;
         [Header("Component References")]
         [SerializeField] private Keypad keypad;
+        [SerializeField] private Collider rightControllerCollider;
+        [SerializeField] private Collider leftControllerCollider;
 
+        private bool moving;
 
         public void PressButton()
         {
             if (!moving)
             {
+                Debug.Log($"Button pressed with value: {value}");
                 keypad.AddInput(value);
                 StartCoroutine(MoveSmooth());
             }
         }
-        private bool moving;
 
         private IEnumerator MoveSmooth()
         {
-
             moving = true;
             Vector3 startPos = transform.localPosition;
             Vector3 endPos = transform.localPosition + new Vector3(0, 0, moveDist);
@@ -60,6 +62,16 @@ namespace NavKeypad
             transform.localPosition = endPos;
 
             moving = false;
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            // Check if the collider belongs to the right or left controller
+            if (other == rightControllerCollider || other == leftControllerCollider)
+            {
+                Debug.Log("Controller collider entered button trigger zone.");
+                PressButton();
+            }
         }
     }
 }

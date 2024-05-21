@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class founditems : MonoBehaviour
 {
@@ -80,7 +81,7 @@ public class founditems : MonoBehaviour
             // Deactivate the countText GameObject if countText is not null
             if (countText != null)
             {
-                countText.SetActive(false);
+                countText.gameObject.SetActive(false);
             }
         }
     }
