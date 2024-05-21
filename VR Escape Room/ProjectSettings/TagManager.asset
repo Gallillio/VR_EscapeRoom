@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LettersAndNumbers
   - Shape
+  - Anchor
   layers:
   - Default
   - TransparentFX
