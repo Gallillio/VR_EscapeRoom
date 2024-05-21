@@ -487,6 +487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctLetter: 0
   correctNumber: 0
+  winEventScript: {fileID: 0}
 --- !u!1001 &355675934639242693
 PrefabInstance:
   m_ObjectHideFlags: 0
