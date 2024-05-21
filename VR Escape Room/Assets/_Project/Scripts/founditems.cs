@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,7 +8,7 @@ public class founditems : MonoBehaviour
 {
     // UI text component to display count of "PickUp" objects collected.
     public TMP_Text countText;
-    private Text countTextComponent;
+    private TextMeshProUGUI countTextComponent;
     private int count;
 
     // UI object to display winning text.
@@ -15,29 +16,6 @@ public class founditems : MonoBehaviour
 
     void Start()
     {
-        // Check if countText is assigned
-        if (countText != null)
-        {
-            // Get the Text component from the countText GameObject
-            countTextComponent = countText.GetComponent<Text>();
-
-            // Check if the countTextComponent is assigned properly
-            if (countTextComponent == null)
-            {
-                Debug.LogError("Text component not found on countText GameObject.");
-            }
-        }
-        else
-        {
-            Debug.LogError("countText GameObject is not assigned in the Inspector.");
-        }
-
-        // Check if done is assigned
-        if (done == null)
-        {
-            Debug.LogError("done GameObject is not assigned in the Inspector.");
-        }
-
         count = 0;
         SetCountText();
     }
@@ -62,10 +40,10 @@ public class founditems : MonoBehaviour
     void SetCountText()
     {
         // Check if countTextComponent is not null before updating the text
-        if (countTextComponent != null)
+        if (countText != null)
         {
             // Update the count text with the current count.
-            countTextComponent.text = "Count: " + count.ToString();
+            countText.text = "Count: " + count.ToString();
         }
 
         // Check if the count has reached or exceeded the win condition.
@@ -80,7 +58,7 @@ public class founditems : MonoBehaviour
             // Deactivate the countText GameObject if countText is not null
             if (countText != null)
             {
-                countText.SetActive(false);
+                countText.gameObject.SetActive(true);
             }
         }
     }

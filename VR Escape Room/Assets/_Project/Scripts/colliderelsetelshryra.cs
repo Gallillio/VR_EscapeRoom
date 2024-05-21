@@ -11,7 +11,7 @@ public class colliderelsetelshryra : MonoBehaviour
         if (other.gameObject.CompareTag("Player") && !soundPlayed)
         {
             // Play audio from AudioManager
-            FindObjectOfType<AudioManager>().PlaySound("elsetelsheryra");
+            // FindObjectOfType<AudioManager>().PlaySound("elsetelsheryra");
             soundPlayed = true; // Set the flag to true to prevent replaying the sound
         }
     }

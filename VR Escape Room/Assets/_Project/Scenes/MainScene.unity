@@ -211,23 +211,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &264343789 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7132824329112644200, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
-  m_PrefabInstance: {fileID: 5207031737463417262}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &264343791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 264343789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94277d2749607f3479a2b0d195f1d3f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &423529120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1338,26 +1321,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8865077768934509168, guid: 166a9000905cb2a41a0399d4f87d13b6, type: 3}
-      propertyPath: sounds.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865077768934509168, guid: 166a9000905cb2a41a0399d4f87d13b6, type: 3}
-      propertyPath: sounds.Array.data[2].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 28c393fc5480f24428f8e859aa92b6ab, type: 3}
-    - target: {fileID: 8865077768934509168, guid: 166a9000905cb2a41a0399d4f87d13b6, type: 3}
-      propertyPath: sounds.Array.data[2].name
-      value: Radio
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865077768934509168, guid: 166a9000905cb2a41a0399d4f87d13b6, type: 3}
-      propertyPath: sounds.Array.data[2].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865077768934509168, guid: 166a9000905cb2a41a0399d4f87d13b6, type: 3}
-      propertyPath: sounds.Array.data[2].volume
-      value: 0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1433,10 +1396,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room1-Galal
       objectReference: {fileID: 0}
-    - target: {fileID: 2228971011979777898, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
-      propertyPath: m_Name
-      value: room1door
-      objectReference: {fileID: 0}
     - target: {fileID: 3426285268146863178, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.91164
@@ -1481,34 +1440,10 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2228971011979777898, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5207031737463417264}
     - targetCorrespondingSourceObject: {fileID: 4062372981015781079, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 7132824329112644200, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 264343791}
   m_SourcePrefab: {fileID: 100100000, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
---- !u!1 &5207031737463417263 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2228971011979777898, guid: 69a06d8b91366004e819ba6365f5175b, type: 3}
-  m_PrefabInstance: {fileID: 5207031737463417262}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5207031737463417264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5207031737463417263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9af74db66f572944bf13181b4dcd6e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pushForce: 10
 --- !u!1001 &7077808904294187289
 PrefabInstance:
   m_ObjectHideFlags: 0

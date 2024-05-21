@@ -291,6 +291,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6966494962511810931}
+  - component: {fileID: 2661325005833630762}
   m_Layer: 0
   m_Name: Room1WinEvent
   m_TagString: Untagged
@@ -313,6 +314,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3426285268146863178}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2661325005833630762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7132824329112644200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94277d2749607f3479a2b0d195f1d3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8706296448625833027
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,6 +500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctLetter: 0
   correctNumber: 0
+  winEventScript: {fileID: 0}
 --- !u!1001 &355675934639242693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1922,7 +1936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8790042149240011522, guid: 0b89e7751a9283e43a21189032283387, type: 3}
       propertyPath: m_Name
-      value: door
+      value: room1door
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1940,6 +1954,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8790042149240011522, guid: 0b89e7751a9283e43a21189032283387, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9028310650551251314}
+    - targetCorrespondingSourceObject: {fileID: 8790042149240011522, guid: 0b89e7751a9283e43a21189032283387, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1942704925964305419}
     - targetCorrespondingSourceObject: {fileID: 3757497601810795322, guid: 0b89e7751a9283e43a21189032283387, type: 3}
       insertIndex: -1
       addedObject: {fileID: 423152239023308375}
@@ -2189,6 +2206,19 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &1942704925964305419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2228971011979777898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9af74db66f572944bf13181b4dcd6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushForce: 10
 --- !u!1 &5996320497917978450 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3757497601810795322, guid: 0b89e7751a9283e43a21189032283387, type: 3}
