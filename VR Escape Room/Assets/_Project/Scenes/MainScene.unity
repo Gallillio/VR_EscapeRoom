@@ -637,7 +637,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.67342e-40, y: 6e-44, z: 1.8e-44, w: 3.753e-42}
+  m_BoundingSphereOverride: {x: 9.1835e-41, y: 1e-45, z: 2.3157239e-36, w: 5.9046264e-36}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -901,6 +901,58 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3874905063106783702, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.799
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874905063106783702, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.734
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874905063106783702, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.084
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874905063106783702, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.90063226
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874905063106783702, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.43458202
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874905063106783702, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 51.517
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314614760132063123, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.226
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314614760132063123, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.431
+      objectReference: {fileID: 0}
+    - target: {fileID: 5442316288444740300, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.116
+      objectReference: {fileID: 0}
+    - target: {fileID: 5442316288444740300, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.815
+      objectReference: {fileID: 0}
+    - target: {fileID: 5442316288444740300, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7574367
+      objectReference: {fileID: 0}
+    - target: {fileID: 5442316288444740300, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6529086
+      objectReference: {fileID: 0}
+    - target: {fileID: 5442316288444740300, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 81.523
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1018,6 +1070,26 @@ PrefabInstance:
     - target: {fileID: 8381780649028100385, guid: 166a9000905cb2a41a0399d4f87d13b6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865077768934509168, guid: 166a9000905cb2a41a0399d4f87d13b6, type: 3}
+      propertyPath: sounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865077768934509168, guid: 166a9000905cb2a41a0399d4f87d13b6, type: 3}
+      propertyPath: sounds.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 943899778717e564fa2c9772debdb11a, type: 3}
+    - target: {fileID: 8865077768934509168, guid: 166a9000905cb2a41a0399d4f87d13b6, type: 3}
+      propertyPath: sounds.Array.data[3].name
+      value: elsetelsheryra
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865077768934509168, guid: 166a9000905cb2a41a0399d4f87d13b6, type: 3}
+      propertyPath: sounds.Array.data[3].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865077768934509168, guid: 166a9000905cb2a41a0399d4f87d13b6, type: 3}
+      propertyPath: sounds.Array.data[3].volume
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
