@@ -4,17 +4,24 @@ public class ShowHidePrefabOnCollision : MonoBehaviour
 {
     public GameObject Object; // Reference to the prefab
     public GameObject mainCamera; // Reference to the main camera object
-
+    private bool hasPlayedSound = false; // Flag to track if the sound has been played
 
     private void Update()
     {
         if (IsCameraInsideCollider())
         {
-            Object.SetActive(true); 
+            if (!Object.activeSelf)
+            {
+                Object.SetActive(true);
+                PlaySoundOnce();
+            }
         }
         else
         {
-            Object.SetActive(false); 
+            if (Object.activeSelf)
+            {
+                Object.SetActive(false);
+            }
         }
     }
 
@@ -28,9 +35,14 @@ public class ShowHidePrefabOnCollision : MonoBehaviour
         return false;
     }
 
-    public void OnEnable()
+    private void PlaySoundOnce()
     {
-        FindObjectOfType<AudioManager>().PlaySound("Pumpkin_Bum");
+        if (!hasPlayedSound)
+        {
+            FindObjectOfType<AudioManager>().PlaySound("Pumpkin_Bum");
+            hasPlayedSound = true; // Set the flag to true after playing the sound
+        }
     }
-}
 
+    // Remove the OnEnable method since we handle playing the sound in PlaySoundOnce method.
+}

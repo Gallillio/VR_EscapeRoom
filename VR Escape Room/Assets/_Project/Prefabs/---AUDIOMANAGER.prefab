@@ -52,12 +52,12 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: backgroundMusic
     clip: {fileID: 8300000, guid: 28c393fc5480f24428f8e859aa92b6ab, type: 3}
-    volume: 0.421
+    volume: 1
     pitch: 1
     source: {fileID: 0}
   - name: Pumpkin_Bum
     clip: {fileID: 8300000, guid: 5f09bacd98a2517429c06b6d52a3ae61, type: 3}
-    volume: 1
+    volume: 0.008
     pitch: 1
     source: {fileID: 0}
   - name: elsetelsheryra
