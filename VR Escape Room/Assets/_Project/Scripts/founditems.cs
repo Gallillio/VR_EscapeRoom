@@ -14,6 +14,8 @@ public class founditems : MonoBehaviour
     // UI object to display winning text.
     public GameObject done;
 
+    public bool WinRoom_2 = false;
+
     void Start()
     {
         // Check if countText is assigned
@@ -76,6 +78,7 @@ public class founditems : MonoBehaviour
             if (done != null)
             {
                 done.SetActive(true);
+                WinRoom_2 = true;
             }
 
             // Deactivate the countText GameObject if countText is not null
