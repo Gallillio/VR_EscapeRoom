@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ShowHidePrefabOnCollision : MonoBehaviour
 {
-    public GameObject Object; // Reference to the prefab
+    public GameObject Object; // Reference to the pumpkin_king prefab
     public GameObject mainCamera; // Reference to the main camera object
 
 
@@ -10,11 +10,11 @@ public class ShowHidePrefabOnCollision : MonoBehaviour
     {
         if (IsCameraInsideCollider())
         {
-            Object.SetActive(true); 
+            Object.SetActive(true); // Show the pumpkin_king game object
         }
         else
         {
-            Object.SetActive(false); 
+            Object.SetActive(false); // Hide the pumpkin_king game object
         }
     }
 
@@ -27,10 +27,4 @@ public class ShowHidePrefabOnCollision : MonoBehaviour
         }
         return false;
     }
-
-    public void OnEnable()
-    {
-        FindObjectOfType<AudioManager>().PlaySound("Pumpkin_Bum");
-    }
 }
-
