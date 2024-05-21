@@ -9,10 +9,6 @@ public class PushDoor : MonoBehaviour
 
     private Rigidbody rb;
 
-    private void OnEnable() {
-       FindObjectOfType<AudioManager>().PlaySound("doorSlam");
-    }
-
     void Start()
     {
         rb = GetComponent<Rigidbody>();
