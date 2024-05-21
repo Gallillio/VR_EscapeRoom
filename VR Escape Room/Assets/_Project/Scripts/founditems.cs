@@ -8,11 +8,12 @@ public class founditems : MonoBehaviour
 {
     // UI text component to display count of "PickUp" objects collected.
     public TMP_Text countText;
-    private TextMeshProUGUI countTextComponent;
     private int count;
 
     // UI object to display winning text.
     public GameObject done;
+
+    [HideInInspector] public bool WinRoom_2 = false;
 
     void Start()
     {
@@ -47,12 +48,13 @@ public class founditems : MonoBehaviour
         }
 
         // Check if the count has reached or exceeded the win condition.
-        if (count >= 6)
+        if (count >= 4)
         {
             // Display the win text if done is not null
             if (done != null)
             {
                 done.SetActive(true);
+                WinRoom_2 = true;
             }
 
             // Deactivate the countText GameObject if countText is not null
