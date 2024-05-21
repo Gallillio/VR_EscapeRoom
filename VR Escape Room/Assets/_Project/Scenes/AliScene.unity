@@ -1163,7 +1163,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 848031298808460052}
     m_Modifications:
     - target: {fileID: 1583363812824011104, guid: a9f74cf36121c324ebdd180a87fe97df, type: 3}
       propertyPath: m_LocalScale.x
@@ -1179,15 +1179,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1583363812824011104, guid: a9f74cf36121c324ebdd180a87fe97df, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4844265
+      value: -1.8544264
       objectReference: {fileID: 0}
     - target: {fileID: 1583363812824011104, guid: a9f74cf36121c324ebdd180a87fe97df, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.975414
+      value: -1.733181
       objectReference: {fileID: 0}
     - target: {fileID: 1583363812824011104, guid: a9f74cf36121c324ebdd180a87fe97df, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.873463
+      value: 2.9574623
       objectReference: {fileID: 0}
     - target: {fileID: 1583363812824011104, guid: a9f74cf36121c324ebdd180a87fe97df, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2327,6 +2327,11 @@ CapsuleCollider:
   m_Height: 1.36144
   m_Direction: 1
   m_Center: {x: 0, y: 0.76, z: 0}
+--- !u!4 &1425746626 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1583363812824011104, guid: a9f74cf36121c324ebdd180a87fe97df, type: 3}
+  m_PrefabInstance: {fileID: 515643034}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1515197322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4301,6 +4306,9 @@ PrefabInstance:
       addedObject: {fileID: 1048743862}
     - targetCorrespondingSourceObject: {fileID: 491343771262213612, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1425746626}
+    - targetCorrespondingSourceObject: {fileID: 491343771262213612, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1515197323}
     - targetCorrespondingSourceObject: {fileID: 491343771262213612, guid: 27385c50e5b9a0c4f8a93ce7754d1720, type: 3}
       insertIndex: -1
@@ -4558,4 +4566,3 @@ SceneRoots:
   - {fileID: 4477131189935430839}
   - {fileID: 7077808904294187289}
   - {fileID: 2078579952236198523}
-  - {fileID: 515643034}
