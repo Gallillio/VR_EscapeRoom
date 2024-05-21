@@ -2852,7 +2852,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1e-45, y: 0, z: 0, w: NaN}
+  m_BoundingSphereOverride: {x: 7.5555663e+31, y: 1.7077776e+19, z: 4.1287842e+30, w: -1.2699609e+32}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -4281,8 +4281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2da9f8a2fdfe464ca870c63fc67e088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countTextUI: {fileID: 0}
-  countTextTMP: {fileID: 0}
+  countText: {fileID: 0}
   done: {fileID: 1048743861}
 --- !u!1001 &848031298808460051
 PrefabInstance:
@@ -4388,15 +4387,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 267717203825801167, guid: 5714ef90c7413204f81a92b0e094bbf7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.532119
+      value: 7.51
       objectReference: {fileID: 0}
     - target: {fileID: 267717203825801167, guid: 5714ef90c7413204f81a92b0e094bbf7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 22.708595
+      value: 19.13
       objectReference: {fileID: 0}
     - target: {fileID: 267717203825801167, guid: 5714ef90c7413204f81a92b0e094bbf7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 17.13423
+      value: 18.16
       objectReference: {fileID: 0}
     - target: {fileID: 267717203825801167, guid: 5714ef90c7413204f81a92b0e094bbf7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4433,7 +4432,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5749456299802701027, guid: 5714ef90c7413204f81a92b0e094bbf7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5714ef90c7413204f81a92b0e094bbf7, type: 3}
 --- !u!1001 &4477131189935430839
 PrefabInstance:
