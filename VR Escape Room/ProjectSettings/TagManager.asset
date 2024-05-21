@@ -6,7 +6,7 @@ TagManager:
   tags:
   - LettersAndNumbers
   - Shape
-  - collectables
+  - Anchor
   layers:
   - Default
   - TransparentFX
