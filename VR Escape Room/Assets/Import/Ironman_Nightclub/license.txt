@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ironman Nightclub
+* source:	https://sketchfab.com/3d-models/ironman-nightclub-3e7fffe1d8344d1ea46385ecb1f9546f
+* author:	3D WORLD (https://sketchfab.com/3dworldd)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ironman Nightclub" (https://sketchfab.com/3d-models/ironman-nightclub-3e7fffe1d8344d1ea46385ecb1f9546f) by 3D WORLD (https://sketchfab.com/3dworldd) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

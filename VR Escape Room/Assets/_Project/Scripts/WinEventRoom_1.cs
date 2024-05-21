@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class WinEventRoom_1 : MonoBehaviour
 {
     private PushDoor pushDoorScript;
+    [HideInInspector] public bool WinRoom_1;
 
     private void Start()
     {
