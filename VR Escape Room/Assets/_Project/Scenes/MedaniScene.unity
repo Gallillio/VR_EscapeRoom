@@ -266,6 +266,35 @@ LightProbeGroup:
   - {x: -2.4144797, y: 0.13248897, z: 2.767537}
   - {x: -2.4144797, y: 0.13248897, z: -1}
   m_Dering: 1
+<<<<<<< Updated upstream
+=======
+--- !u!1 &743124009 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4634005155650666285, guid: d4462cbd02280bc4ebc995e1d0a44957, type: 3}
+  m_PrefabInstance: {fileID: 1074965735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &743124013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743124009}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2205846, y: 2.4747136, z: 0}
+  m_Center: {x: -0.11606827, y: 0.55052924, z: -0.99999994}
+>>>>>>> Stashed changes
 --- !u!1001 &818101219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -332,6 +361,35 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
   m_PrefabInstance: {fileID: 818101219}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!1 &1019762572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1121806673843427949, guid: d4462cbd02280bc4ebc995e1d0a44957, type: 3}
+  m_PrefabInstance: {fileID: 1074965735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1019762576
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019762572}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.279528, y: 2.5408375, z: 37.259052}
+  m_Center: {x: 0.00071126217, y: -0.27318412, z: 18.474176}
+>>>>>>> Stashed changes
 --- !u!1001 &1074965735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -392,6 +450,67 @@ PrefabInstance:
       addedObject: {fileID: 279715630}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4462cbd02280bc4ebc995e1d0a44957, type: 3}
+<<<<<<< Updated upstream
+=======
+--- !u!1 &1247327475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4795923403430707544, guid: d4462cbd02280bc4ebc995e1d0a44957, type: 3}
+  m_PrefabInstance: {fileID: 1074965735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1247327479
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247327475}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 2.000001, z: 2.0000007}
+  m_Center: {x: 0, y: 0, z: -0.00012207031}
+--- !u!1 &1309363428 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4981019970955695306, guid: d4462cbd02280bc4ebc995e1d0a44957, type: 3}
+  m_PrefabInstance: {fileID: 1074965735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1309363432
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309363428}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+>>>>>>> Stashed changes
 --- !u!1 &1548251155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,7 +1903,17 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
+<<<<<<< Updated upstream
     m_AddedComponents: []
+=======
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 758920595719626781, guid: bc1bad684bf32b14187d65376c183f5e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 8045783289715475890, guid: bc1bad684bf32b14187d65376c183f5e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+>>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: bc1bad684bf32b14187d65376c183f5e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
