@@ -1781,10 +1781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room3-Ebraam
       objectReference: {fileID: 0}
-    - target: {fileID: 3110490090021622498, guid: f5f410bb73f8dc040bc28933a7bf2dd2, type: 3}
-      propertyPath: voiceoverClip
-      value: 
-      objectReference: {fileID: 8300000, guid: f70283e0434c49c4384c131e1c106103, type: 3}
+    - target: {fileID: 3752723162267173781, guid: f5f410bb73f8dc040bc28933a7bf2dd2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.9446
+      objectReference: {fileID: 0}
     - target: {fileID: 7599096937537772058, guid: f5f410bb73f8dc040bc28933a7bf2dd2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.532119
