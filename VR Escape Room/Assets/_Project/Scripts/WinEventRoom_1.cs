@@ -3,7 +3,7 @@ using UnityEngine;
 public class WinEventRoom_1 : MonoBehaviour
 {
     private PushDoor pushDoorScript;
-    public bool WinRoom_1;
+    public bool WinRoom_1 = false;
 
     private void Start()
     {
@@ -13,5 +13,6 @@ public class WinEventRoom_1 : MonoBehaviour
     public void WinEventFunc()
     {
         pushDoorScript.PushDoorFunc();
+        WinRoom_1 = true;
     }
 }
