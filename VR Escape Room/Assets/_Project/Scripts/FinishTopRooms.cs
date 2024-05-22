@@ -16,11 +16,11 @@ public class FinishTopRooms : MonoBehaviour
     {
         winEventRoom_1Script = GameObject.Find("Room1WinEvent").GetComponent<WinEventRoom_1>();
         founditemsScript = GameObject.Find("GarderobHide_Drawer_0").GetComponent<founditems>();
-
     }
 
     void Update()
     {
+        //Debug.Log(winEventRoom_1Script.WinRoom_1 + " " + founditemsScript.WinRoom_2);
         //when 3 top levels are done
         if (winEventRoom_1Script.WinRoom_1 && founditemsScript.WinRoom_2)
         {
