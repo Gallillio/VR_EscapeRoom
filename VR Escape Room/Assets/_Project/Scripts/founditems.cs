@@ -48,7 +48,7 @@ public class founditems : MonoBehaviour
         }
 
         // Check if the count has reached or exceeded the win condition.
-        if (count >= 4)
+        if (count >= 3)
         {
             // Display the win text if done is not null
             if (done != null)

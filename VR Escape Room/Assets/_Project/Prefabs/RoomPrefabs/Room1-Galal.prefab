@@ -326,6 +326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94277d2749607f3479a2b0d195f1d3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WinRoom_1: 0
 --- !u!1 &8706296448625833027
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,9 +1879,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3426285268146863178}
     m_Modifications:
+    - target: {fileID: 1249382426375240433, guid: 0b89e7751a9283e43a21189032283387, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1711358376919832051, guid: 0b89e7751a9283e43a21189032283387, type: 3}
       propertyPath: m_Name
       value: doorItself
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711358376919832051, guid: 0b89e7751a9283e43a21189032283387, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2152229325073666415, guid: 0b89e7751a9283e43a21189032283387, type: 3}
       propertyPath: m_LocalScale.x
@@ -1930,13 +1939,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: doorHandle begad ba2a
       objectReference: {fileID: 0}
+    - target: {fileID: 3757497601810795322, guid: 0b89e7751a9283e43a21189032283387, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5319040075806399677, guid: 0b89e7751a9283e43a21189032283387, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8056064595462875542, guid: 0b89e7751a9283e43a21189032283387, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8756890696822598691, guid: 0b89e7751a9283e43a21189032283387, type: 3}
       propertyPath: m_Name
       value: doorHandle
       objectReference: {fileID: 0}
+    - target: {fileID: 8756890696822598691, guid: 0b89e7751a9283e43a21189032283387, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8790042149240011522, guid: 0b89e7751a9283e43a21189032283387, type: 3}
       propertyPath: m_Name
       value: room1door
+      objectReference: {fileID: 0}
+    - target: {fileID: 8790042149240011522, guid: 0b89e7751a9283e43a21189032283387, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8911627546064206325, guid: 0b89e7751a9283e43a21189032283387, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

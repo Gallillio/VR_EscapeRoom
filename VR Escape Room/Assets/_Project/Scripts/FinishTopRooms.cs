@@ -5,11 +5,18 @@ public class FinishTopRooms : MonoBehaviour
     private WinEventRoom_1 winEventRoom_1Script;
     private founditems founditemsScript;
 
+    private void OnTriggerEnter(Collider other)
+    {
+
+    }
+
     [SerializeField] private GameObject disappearingFence;
 
     void Start()
     {
         winEventRoom_1Script = GameObject.Find("Room1WinEvent").GetComponent<WinEventRoom_1>();
+        founditemsScript = GameObject.Find("GarderobHide_Drawer_0").GetComponent<founditems>();
+
     }
 
     void Update()
